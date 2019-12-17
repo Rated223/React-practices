@@ -1,0 +1,15 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "react test project",
+  "main": "index.js",
+  "author": "Rated223",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4"
+  },
+  "dependencies": {}
+}
