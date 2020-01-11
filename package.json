@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Rated223",
   "license": "MIT",
+  "scripts": {
+    "generate": "npx babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch"
+  },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
