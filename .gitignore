@@ -2,3 +2,4 @@
 playground/
 node_modules/
 yarn.lock
+public/bundle.js

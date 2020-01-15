@@ -6,13 +6,20 @@
   "author": "Rated223",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --watch",
     "generate": "npx babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4"
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.10"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5"
+  }
 }
