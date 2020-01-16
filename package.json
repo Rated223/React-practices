@@ -6,8 +6,8 @@
   "author": "Rated223",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --watch",
-    "generate": "npx babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
@@ -15,7 +15,9 @@
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
-    "webpack-cli": "^3.3.10"
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
     "react": "^16.12.0",
