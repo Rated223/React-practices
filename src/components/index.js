@@ -4,6 +4,7 @@ import Option from './Option';
 import Header from './Header';
 import Action from './Action';
 import Options from './Options';
+import OptionModal from './OptionModal';
 
 export {
   IndecisionApp,
@@ -11,5 +12,6 @@ export {
   Option,
   Header,
   Action,
-  Options
+  Options,
+  OptionModal
 }
